@@ -64,3 +64,30 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	text-align: center;
+	margin: 40px;
+}
+
+nav a {
+	margin: 80px;
+	color: gray;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: red;
+}
+
+header {
+	text-align: center;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+}

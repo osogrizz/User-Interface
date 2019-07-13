@@ -65,13 +65,18 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+	width: 1240px;
+	margin: 0 auto;
+}
+
 nav {
 	text-align: center;
-	margin: 40px;
+	margin: 40px 0;
 }
 
 nav a {
-	margin: 80px;
+	margin: 30px;
 	color: gray;
 	text-decoration: none;
 }
@@ -82,11 +87,57 @@ nav a:hover {
 
 header {
 	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 6rem;
+}
+
+button {
+	width: 200px;
+	background: transparent;
+	border: 1px solid #222;
+	text-transform: uppercase;
+	padding: 10px;
+	margin: 20px 0 0 40px;
+}
+
+.header-section {
+	display: inline-block;
+	margin: 40px;
+}
+
+.two-article {
+	width: 100%;
+}
+
+.top-articles {
+	display: inline-block;
+	width: 45%;
+	margin: 0 20px;
+}
+
+.top-articles::last-child {
+	float: right;
 }
 
 .middle-img {
 	width: 100%;
+	margin: 40px auto;
 }
+
+.contact a {
+	text-decoration: none;
+	color: black;
+}
+
+.contact a:hover {
+	text-decoration: underline;
+	color: gray;
+}
+
+
 
 footer {
 	text-align: center;

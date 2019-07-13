@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-	width: 1240px;
+	max-width: 1240px;
 	margin: 0 auto;
 }
 
@@ -101,6 +101,17 @@ button {
 	text-transform: uppercase;
 	padding: 10px;
 	margin: 20px 0 0 40px;
+	outline: none;
+}
+
+button:hover {
+	background: #222;
+	color: #fff;
+	cursor: pointer;
+}
+
+button:active {
+	background: red;
 }
 
 .header-section {
@@ -115,7 +126,7 @@ button {
 .top-articles {
 	display: inline-block;
 	width: 45%;
-	margin: 0 20px;
+	margin: 0 10px;
 }
 
 .top-articles::last-child {
@@ -125,6 +136,22 @@ button {
 .middle-img {
 	width: 100%;
 	margin: 40px auto;
+}
+
+.three-article {
+	width: 100%;
+	margin: 0 10px;
+	margin-bottom: 40px;
+}
+
+.bottom-articles {
+	display: inline-block;
+	width: 400px;
+	margin: 5px;
+}
+
+.contact {
+	margin: 0 10px;
 }
 
 .contact a {
@@ -140,5 +167,6 @@ button {
 
 
 footer {
+	margin: 40px;
 	text-align: center;
 }

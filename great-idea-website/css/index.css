@@ -65,10 +65,14 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+/* global */
 body {
 	max-width: 1240px;
 	margin: 0 auto;
 }
+
+/* Nav */
 
 nav {
 	text-align: center;
@@ -84,6 +88,8 @@ nav a {
 nav a:hover {
 	color: red;
 }
+
+/* header */
 
 header {
 	text-align: center;
@@ -108,6 +114,8 @@ button:hover {
 	background: #222;
 	color: #fff;
 	cursor: pointer;
+	font-weight: 700;
+	letter-spacing: 2px;
 }
 
 button:active {
@@ -119,8 +127,11 @@ button:active {
 	margin: 40px;
 }
 
+/* Main content section */
+
 .two-article {
 	width: 100%;
+	margin-top: 20px;
 }
 
 .top-articles {
@@ -150,8 +161,10 @@ button:active {
 	margin: 5px;
 }
 
+/* Contact */
+
 .contact {
-	margin: 0 10px;
+	margin:  20px 10px 0;
 }
 
 .contact a {
@@ -164,7 +177,7 @@ button:active {
 	color: gray;
 }
 
-
+/* Footer */
 
 footer {
 	margin: 40px;

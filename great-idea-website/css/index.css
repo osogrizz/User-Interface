@@ -89,6 +89,10 @@ nav a {
 	text-decoration: none;
 }
 
+nav img {
+	justify-items: baseline;
+}
+
 nav a:hover {
 	color: red;
 }

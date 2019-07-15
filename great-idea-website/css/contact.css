@@ -53,12 +53,12 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		height: 100%;
+		font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+		font-family: 'Comfortaa', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -80,23 +80,57 @@ nav {
 	width: 100vw;
 	text-align: center;
 	background: rgb(248, 232, 2);
-	padding: 10px 0 40px;
+	padding: 10px 0 15px;
 }
 
 nav a {
 	margin: 30px;
 	color: gray;
 	text-decoration: none;
+	vertical-align: middle;
+}
+
+nav img {
+	justify-items: baseline;
 }
 
 nav a:hover {
 	color: red;
 }
 
+.logo-img {
+	display: inline-block;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	width: 183px;
+	height: 60px;
+	margin: 0;
+	margin-top: 20px;
+}
+
 /* Form */
 
 form {
+  width: 960px;
   padding-top: 120px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+	margin: 10px;
+	width: 372px;
+}
+
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+	margin: 10px;
+	width: 80%;
 }
 
 
@@ -111,6 +145,8 @@ header {
 
 h1 {
 	font-size: 6rem;
+	text-align: center;
+	padding-top: 140px;
 }
 
 button {
@@ -159,10 +195,10 @@ button:active {
 	float: right;
 }
 
-.middle-img {
+/* .middle-img {
 	width: 100%;
 	margin: 40px auto;
-}
+} */
 
 .three-article {
 	width: 100%;
@@ -195,6 +231,6 @@ button:active {
 /* Footer */
 
 footer {
-	margin: 40px;
+	margin: 80px;
 	text-align: center;
 }

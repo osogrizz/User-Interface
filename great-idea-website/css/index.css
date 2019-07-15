@@ -80,13 +80,14 @@ nav {
 	width: 100vw;
 	text-align: center;
 	background: rgb(248, 232, 2);
-	padding: 10px 0 40px;
+	padding: 10px 0 15px;
 }
 
 nav a {
 	margin: 30px;
 	color: gray;
 	text-decoration: none;
+	vertical-align: middle;
 }
 
 nav img {
@@ -97,6 +98,15 @@ nav a:hover {
 	color: red;
 }
 
+.logo-img {
+	display: inline-block;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	width: 183px;
+	height: 60px;
+	margin: 0;
+	margin-top: 20px;
+}
 
 /* header */
 
@@ -139,6 +149,13 @@ button:active {
 	margin: 40px;
 }
 
+.header-img {
+	margin-bottom: -40px;
+	background-image: url('../img/header-img.png');
+	width: 379px;
+	height: 379px;
+}
+
 /* Main content section */
 
 .two-article {
@@ -152,13 +169,12 @@ button:active {
 	margin: 0 10px;
 }
 
-.top-articles::last-child {
-	float: right;
-}
-
 .middle-img {
-	width: 100%;
-	margin: 40px auto;
+	background-image: url('../img/mid-page-accent.jpg');
+	/* background-repeat: no-repeat; */
+	width: 100vw;
+	height: 183px;
+	margin: 30px 0;
 }
 
 .three-article {
@@ -169,7 +185,7 @@ button:active {
 
 .bottom-articles {
 	display: inline-block;
-	width: 400px;
+	width: 32%;
 	margin: 5px;
 }
 
@@ -192,6 +208,6 @@ button:active {
 /* Footer */
 
 footer {
-	margin: 40px;
+	margin: 80px;
 	text-align: center;
 }
